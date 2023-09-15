@@ -1,0 +1,38 @@
+:root{
+    --b1: purple;
+    --b2: gray;
+    --b3: red;
+    --b4: blue;
+    --b5: green;
+    --b6: violet;
+--b7: pink;
+--b8: orange;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#elso{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 75%;
+    margin: 10px;
+}
+#masodik{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width:  75%;
+    margin: 10px;
+}
+.block{
+    height: 200px;
+    width: 75%;
+    margin: 10px;
+}
+body{
+    background-color: var(--b1);
+}
